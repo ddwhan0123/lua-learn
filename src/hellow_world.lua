@@ -7,7 +7,7 @@ print('第三个 lua 代码')
 
 a= '10'
 print(a)
-print(type(a))
+print('a 的数据类型'..type(a))
 a=nil
 print(a)
 print(type(aa)=='nil')
