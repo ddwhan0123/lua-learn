@@ -69,3 +69,5 @@ print(string.format('格式化拼接:%d',10086))
 print('字符串长度 ',string.len(c))
 print('内容拷贝 ',string.rep(c,3))--返回字符串string的n个拷贝
 --字符串截取
+print('字符串截取 ',string.sub(c,2,5))
+print('字符串截取 ',string.sub(c,-5))-- 截取后面5个
